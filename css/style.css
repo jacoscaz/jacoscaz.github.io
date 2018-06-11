@@ -1,0 +1,49 @@
+* {
+    box-sizing: border-box;
+}
+
+a {
+    color: inherit;
+    text-decoration: underline;
+}
+
+
+html, body {
+    width: 100%;
+    height: 100%;
+}
+
+body {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 16px;
+    line-height: 1.25em;
+    font-family: "Inconsolata", monospace;
+}
+
+@media (min-width: 640px) {
+    body {
+        font-size: 20px;
+    }
+}
+
+@media (min-width: 1024px) {
+    body {
+        font-size: 24px;
+    }
+}
+
+#page {
+    max-width: 768px;
+    text-align: left;
+    padding: 1em;
+}
+
+#page p, #page h1 {
+    font-size: 1em;
+    font-weight: normal;
+}
+
+
+
