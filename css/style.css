@@ -1,5 +1,6 @@
 * {
     box-sizing: border-box;
+    font-weight: inherit;
 }
 
 a {
@@ -20,6 +21,7 @@ body {
     font-size: 16px;
     line-height: 1.25em;
     font-family: "Fira Code", monospace;
+    font-weight: 300;
 }
 
 @media (min-width: 640px) {
@@ -42,7 +44,6 @@ body {
 
 #page p, #page h1 {
     font-size: 1em;
-    font-weight: normal;
 }
 
 
