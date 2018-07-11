@@ -19,7 +19,7 @@ body {
     justify-content: center;
     font-size: 16px;
     line-height: 1.25em;
-    font-family: "Inconsolata", monospace;
+    font-family: "Fira Code", monospace;
 }
 
 @media (min-width: 640px) {
