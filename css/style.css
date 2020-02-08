@@ -24,7 +24,7 @@ body {
     justify-content: center;
     font-size: 16px;
     line-height: 1.25em;
-    font-family: "Inter UI", "Helvetica Neue", Helvetica, Arial, sans-serif;
+    font-family: "Libre Baskerville", "Helvetica Neue", Helvetica, Arial, serif;
     font-weight: 300;
 }
 
@@ -50,5 +50,27 @@ body {
     font-size: 1em;
 }
 
+#profile-pic {
+    overflow: hidden;
+    width: 200px;
+    height: 200px;
+    /* border: 5px inset #000; */
+    border-radius: 100px;
+    margin: 0 auto 2em auto;
+}
+
+#profile-pic img {
+    margin-top: -50%;
+    margin-left: -5%;
+    width: 110%;
+}
+
+@media (min-width: 1024px) {
+    #profile-pic {
+        width: 300px;
+        height: 300px;
+        border-radius: 150px;
+    }
+}
 
 
